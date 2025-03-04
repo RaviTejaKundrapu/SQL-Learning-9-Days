@@ -1,0 +1,29 @@
+📖 Introduction to Databases & SQL
+
+🟢 Part 1: Introduction to Databases
+1️⃣ Data
+2️⃣ Database
+3️⃣ Examples of Databases (3)
+4️⃣ What is DBMS?
+5️⃣ How DBMS Works?
+6️⃣ Advantages of DBMS (4)
+7️⃣ Types of Databases (6)
+8️⃣ Main Types of Databases (2)
+9️⃣ Top SQL Software (6)
+🔟 Top NoSQL Software (6)
+
+🔵 Part 2: Introduction to SQL
+1️⃣ What is SQL? – Uses in IT, Pharma, Decision Making
+2️⃣ SQL Data Types (8 Common Types)
+3️⃣ Create a Table – CREATE TABLE, PRAGMA Table_Info(tableName)
+4️⃣ Insert Data – INSERT INTO (SQLite allows any type, others don’t)
+5️⃣ Select Data – SELECT
+🔹 All rows & columns
+🔹 Specific rows & columns (WHERE clause)
+6️⃣ Update Data – UPDATE (Modify using SET, WHERE)
+7️⃣ Delete Data – DELETE
+🔹 Remove all rows
+🔹 Remove specific rows (WHERE)
+8️⃣ Drop a Table – DROP TABLE (Permanently delete)
+9️⃣ Modify a Table – ALTER TABLE
+🔹 Add, rename, or remove columns
