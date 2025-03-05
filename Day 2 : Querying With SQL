@@ -28,7 +28,8 @@
 
 | Pattern        | Meaning                                   |
 |----------------|-------------------------------------------|
-| `LIKE 'A%'`    | Starts with 'A'                           |
+|`LIKE 'A`       | exact with 'A'                           
+|`LIKE 'A%'`     | Starts with 'A'                           |
 | `LIKE '%A'`    | Ends with 'A'                             |
 | `LIKE '%word%'`| Contains 'word'                           |
 | `LIKE 'a_%'`   | Starts with 'a' followed by one character |
