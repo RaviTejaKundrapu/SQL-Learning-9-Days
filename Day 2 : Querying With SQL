@@ -1,1 +1,98 @@
-AT 1 PM TOPICS VISIBLE
+🌟 **Querying with SQL**
+
+---
+
+🔢 **🔹 1. Comparison Operators**
+
+| Operator | Meaning                  |
+|----------|--------------------------|
+| `=`      | Equal to                 |
+| `<>`     | Not equal to             |
+| `<`      | Less than                |
+| `<=`     | Less than or equal to    |
+| `>`      | Greater than             |
+| `>=`     | Greater than or equal to |
+
+---
+
+🔠 **🔹 2. String Operators**
+
+📌 **Symbols:**
+
+| Symbol | Meaning                             |
+|--------|-------------------------------------|
+| `%`    | Matches zero or more characters   |
+| `_`    | Matches exactly one character     |
+
+📌 **Patterns:**
+
+| Pattern        | Meaning                                   |
+|----------------|-------------------------------------------|
+| `LIKE 'A%'`    | Starts with 'A'                           |
+| `LIKE '%A'`    | Ends with 'A'                             |
+| `LIKE '%word%'`| Contains 'word'                           |
+| `LIKE 'a_%'`   | Starts with 'a' followed by one character |
+| `LIKE '_ _ _'` | Contains at least three words             |
+
+---
+
+🔗 **🔹 3. Logical Operators (Power Ratio)**
+
+| Operator | Power     | Description                          |
+|----------|---------- |--------------------------------------|
+| `AND`    | ⚖️ Medium | Both conditions must be true         |
+| `OR`     | 🔽 Low    | At least one condition must be true  |
+| `NOT`    | 🔼 High   | Negates a condition                  |
+
+✅ Use parentheses `()` for multiple conditions
+
+---
+
+📌 **🔹 4. IN Operator**
+- Used to replace multiple `OR` conditions
+- Example: 
+  ```sql
+  WHERE column_name IN ('value1', 'value2', 'value3');
+  ```
+
+---
+
+📍 **🔹 5. BETWEEN Operator**
+- Searches for values in a range
+- Example:
+  ```sql
+  WHERE column_name BETWEEN valStart AND valEnd;
+  ```
+
+---
+
+📊 **🔹 6. ORDER BY Clause**
+
+| Keyword  | Sorting Order              |
+|----------|----------------------------|
+| `ASC`    | Small to big (Ascending)   |
+| `DESC`   | Big to small (Descending)  |
+
+---
+
+🆕 **🔹 7. DISTINCT Clause**
+
+| Query                      | Purpose                                      |
+|----------------------------|----------------------------------------------|
+| `DISTINCT column_name`     | Unique values from one column                |
+| `DISTINCT col1, col2`      | Unique combinations from multiple columns    |
+| `DISTINCT *`               | Unique rows from all columns                 |
+
+---
+
+📌 **🔹 8. Pagination**
+
+| Clause  | Description                    |
+|---------|--------------------------------|
+| `LIMIT` | Number of rows to retrieve     |
+| `OFFSET`| Starting index (0,1,2,...)     |
+
+📌 Example:
+```sql
+SELECT * FROM table_name LIMIT 10 OFFSET 5;
+```
