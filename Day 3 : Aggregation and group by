@@ -1,51 +1,50 @@
-📌 **Part 1: Aggregations in SQL**  
-------------------------------------------------------
+**📌 Part 1: Aggregations in SQL**  
+------------------------------------
 
 🔹 **1️⃣ Aggregation Functions**  
-&nbsp;&nbsp;&nbsp;&nbsp; ✔ **COUNT()**, **SUM()**, **AVG()**, **MIN()**, **MAX()**  
+✔ **COUNT()**, **SUM()**, **AVG()**, **MIN()**, **MAX()**  
 
 🔹 **2️⃣ Multiple Aggregations in a Single Query**  
-&nbsp;&nbsp;&nbsp;&nbsp; ✔ Use two or more aggregation functions in the same query.  
+✔ Use two or more aggregation functions in the same query.  
 
 🔹 **3️⃣ Inserting Values Without Specifying Some Columns**  
-&nbsp;&nbsp;&nbsp;&nbsp; ✔ If some column names are excluded, those columns will be set to **NULL**.  
+✔ If some column names are excluded, those columns' specific row will be set to **NULL**.  
 
 🔹 **4️⃣ Aggregation Function Cases**  
 
-➖ **String Cases:**  
-&nbsp;&nbsp;&nbsp;&nbsp; ✔ **COUNT()** → Counts the number of **non-null** values in a column.  
-&nbsp;&nbsp;&nbsp;&nbsp; ✔ **SUM(), AVG()** → In **SQLite**, returns `0`; in **PostgreSQL**, returns `None`.  
-&nbsp;&nbsp;&nbsp;&nbsp; ✔ **MIN(), MAX()** → Returns values in **lexical order**.  
+**➖ String Cases:**  
+✔ **COUNT()**      → Counts the number of **non-null** values in a column.  
+✔ **SUM(), AVG()** → In **SQLite**, returns `0`; in **PostgreSQL**, returns `None`.  
+✔ **MIN(), MAX()** → Returns values in **lexical order**.  
 
-➖ **NULL Cases:**  
+**➖ NULL Cases:**  
 
-| 🏷️ Function  | 🔢 Result |
-|-------------|--------------------------------------------------|
-| **MIN** / **MAX** / **SUM** / **AVG** | Returns `NULL` if applied only on NULL values |
-| **COUNT** | Returns `0` if all values in the row are `NULL` (NULL rows are not counted) |
+| 🏷️ Function                                     | 🔢 Result                                                                  |
+|-------------------------------------------------|-----------------------------------------------------------------------------|
+| **MIN** / **MAX** / **SUM** / **AVG**           | Returns `NULL` if applied only on NULL values                               |
+| **COUNT**                                       | Returns `0` if all values in the row are `NULL` (NULL rows are not counted) |
 
 🔹 **5️⃣ Aliases Using AS**  
-&nbsp;&nbsp;&nbsp;&nbsp; ✔ Assign custom names to columns in query results.  
+✔ Assign custom names to columns in query results.  
 
 🔹 **6️⃣ COUNT() Formats in SELECT**  
-&nbsp;&nbsp;&nbsp;&nbsp; ✔ **COUNT(*)** → Counts all rows.  
-&nbsp;&nbsp;&nbsp;&nbsp; ✔ **COUNT(column)** → Counts only **non-null** values.  
-&nbsp;&nbsp;&nbsp;&nbsp; ✔ **COUNT(1)** → Counts all rows (same as `COUNT(*)`).  
+✔ **COUNT(*)** → Counts all rows.  
+✔ **COUNT(column)** → Counts only **non-null** values.  
+✔ **COUNT(1)** → Counts all rows (same as `COUNT(*)`).  
 
-------------------------------------------------------
+=======================================================================================================================================
 
-📌 **Part 2: GROUP BY**  
-------------------------------------------------------
-
+**📌 Part 2: GROUP BY**  
+-------------------------
 🔹 **1️⃣ Single Column GROUP BY**  
-&nbsp;&nbsp;&nbsp;&nbsp; ✔ Groups data based on one column.  
+✔ Groups data based on one column.  
 
 🔹 **2️⃣ Multiple Columns in GROUP BY + Aggregations**  
-&nbsp;&nbsp;&nbsp;&nbsp; ✔ Groups data using multiple columns along with aggregation functions.  
+✔ Groups data using multiple columns along with aggregation functions.  
 
 🔹 **3️⃣ WHERE vs HAVING**  
-&nbsp;&nbsp;&nbsp;&nbsp; ✔ **WHERE** → Filters rows **before** grouping.  
-&nbsp;&nbsp;&nbsp;&nbsp; ✔ **HAVING** → Filters groups **after** aggregation.  
+✔ **WHERE** → Filters rows **before** grouping.  
+✔ **HAVING** → Filters groups **after** aggregation.  
 
 🔹 **4️⃣ SQL Query Execution Flow**  
 ```sql
