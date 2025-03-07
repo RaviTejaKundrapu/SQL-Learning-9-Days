@@ -3,7 +3,7 @@
 
 1. Expressions in SQL Queries:
 ♦ can used in Clauses: WHERE, SELECT, UPDATE, HAVING  
-♦ Concatenation:  col1 || "-" || col2  
+♦ Concatenation:  col1 || "-" || col2 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 2. Functions in SQL:  
