@@ -30,6 +30,9 @@ Hey there! I am Ravi Teja Kundrapu - a passionate developer and Tech learner ded
 
 ---
 
-Made with ❤️ by Ravi Teja Kundrapu to SQL learners
+<div align="center">
+  Made with ❤️ by Ravi Teja Kundrapu to SQL learners
 
 🎉 Happy SQL Querying! 🎉
+</div>
+
