@@ -1,0 +1,52 @@
+🌟 SQL Expressions, Functions, CASE, and Set Operations 🌟
+-----------------------------------------------------------
+
+1. Expressions in SQL Queries:
+♦ can used in Clauses: WHERE, SELECT, UPDATE, HAVING  
+♦ Concatenation:  col1 || "-" || col2  
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2. Functions in SQL:  
+
+♦ DateTime Functions
+  strftime("%Y", column)  -- Year
+  strftime("%m", column)  -- Month
+  strftime("%d", column)  -- Day
+  strftime("%H", column)  -- Hour
+  strftime("%M", column)  -- Minute  
+  strftime("%j", column)  -- Day of the year 
+
+♦ Typecasting Function
+  CAST(strftime("%Y", column) AS INTEGER) = 2025  
+  🔴Note: By default, datetime is stored as a string.  
+
+♦ Arithmetic Functions 
+  FLOOR(column_name)  -- Down round-off to left number before decimal point  
+  CEIL(column_name)   -- Upper round-off   
+  ROUND(column_name, decimals)  -- Round to specified decimal places   
+
+♦ String Functions
+  UPPER(column_name)  -- Convert to UPPERCASE  
+  LOWER(column_name)  -- Convert to lowercase  
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3. CASE Statement :
+♦ Used in: SELECT, WHERE, GROUP BY, HAVING  
+
+  CASE  
+    WHEN condition1 THEN result1  
+    WHEN condition2 THEN result2  
+    ELSE default_result  
+  END  
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4. Set Operations : 
+♦ INTERSECT             - same items in both results
+♦ MINUS / EXCEPT        - unique items in Left item set
+♦ UNION                 - all items in both queries unique 1 time
+♦ UNION ALL             - all items even duplicates/repetitions results
+
+🔴Note: To perform set operations, in select of both queries must have
+1. Same number of columns
+2. Same data types columns
+3. Same column order
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                      🚀 **Happy Querying!**
