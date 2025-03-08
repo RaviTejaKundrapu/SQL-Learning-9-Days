@@ -1,0 +1,6 @@
+1. Understanding Business Requirements and turn them to Conceptual Level
+2. Entity(object), Entity Types(tables), Attributes(columns), Relationships cardinality ratios(1:1,1:m,m:1,m:n)
+3. Developing a Ecommerce Application Database
+4. Keys - primary,foreign,unique fk
+5. references from table to table while creating a foreign key and unique fk, and using (on delete cascade)
+6. performing querying on our ecommerce data base
