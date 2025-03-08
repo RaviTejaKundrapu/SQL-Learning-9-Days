@@ -1,0 +1,5 @@
+Question 4
+Get the name, profit and release date for the movies that were released in the year 2008, 2009 or 2010.
+
+Approach
+We need to calculate the profit by subtracting budget_in_cr from collection_in_cr. Then, we'll filter out movies released in the year 2008, 2009 or 2010.
