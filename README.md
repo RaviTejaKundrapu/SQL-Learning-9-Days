@@ -6,7 +6,7 @@ Welcome to the SQL Cheat Sheet Repository - a curated collection of essential SQ
 
 Hey there! I am Ravi Teja Kundrapu - a passionate developer and Tech learner dedicated to making SQL learning easy, structured, and accessible. I've created this resource to share my knowledge and help others on their SQL journey.
 
-## 📝 SQL Learning Roadmap 📝
+## SQL Learning Roadmap 📝
 
 *  Introduction to Database & SQL 
 *  Querying with SQL 
@@ -22,7 +22,7 @@ Hey there! I am Ravi Teja Kundrapu - a passionate developer and Tech learner ded
 * 📚 Structured Learning: Follow a carefully designed path from basics to advanced topics
 * ⚡ Best Practices: Learn not just how to write SQL, but how to write efficient SQL
 
-## 📢 Stay Connected 📢
+## Stay Connected 📢
 
 📍 Stay Updated: 👀 Stay tuned for regular updates and valuable SQL insights!
 
